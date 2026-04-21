@@ -1,0 +1,1001 @@
+main {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MainGde {
+    width: 85%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.MainContainer {
+    width: 75%;
+    height: 800px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+
+body {
+    background: radial-gradient(circle at 100% 0%, #60d376 0%, #60d376 50%, transparent 50.1%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right -200px;
+    background-image: url(../assets/Ellipse\ 100.png);
+    background-size: auto;
+    background-size: 60%;
+
+}
+
+.conteiner1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 90%;
+}
+.Round{
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 4px #1C2128;
+    border-radius: 100px;
+}
+
+.conteiner2{
+    /* background-color: #0051ff; */
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+.conteiner21{
+    /* background-color: #ffdd00; */
+    width: 45%;
+    height: 60%;  
+}
+.conteiner21 h1{
+    font-size: 40px;
+    font-weight: 700px;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+}
+.conteiner21 h3{
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+}
+.conteiner211{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.conteiner211 button{
+width: 45%;
+height: 55%;
+background: #64D370;
+border-color: #64D370;
+border-style: none;
+border-radius: 190px;
+color: white;
+font-size: 26px;
+}
+.conteiner212{
+width: 50%;
+font-size: 17px;
+font-weight: 400;
+display: flex;
+justify-content: left;
+flex-direction: column;
+text-align: left;
+}
+
+.conteiner212Green{
+color: #64D370;
+width: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 25px;
+font-weight: 700;
+
+}
+@keyframes rotetion {
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 1440deg;
+    }
+}
+
+.conteiner22{
+    /* background-color: #ff0000; */
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner22Round{
+    background: #ffffff;
+    width: 52vh;
+    height: 26vw;
+    border-radius: 100% ;
+    background-image: url('../src/assets/AvaCado.png');
+    background-position: center;
+    background-size: cover;
+    transition: 1s;
+animation: rotetion 550s infinite;
+}
+
+
+.blog {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.blog h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.blogGrid {
+  width: 85%;
+  height: 40vh;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blogGrid img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+    object-fit: contain;
+  object-fit: cover;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+.Catalog {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CatalogDivGde {
+    width: 59%;
+    height: 85vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+    max-width: 1950px
+}
+
+.BgLabel {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    width: 290px;
+    height: 340px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: 0.3s;
+    cursor: pointer;
+    align-items: center;
+}
+
+.BgLabel:hover {
+    border: 1px solid rgb(0, 174, 255);
+    box-shadow: 0 4px 6px rgba(0, 174, 255, 3);
+    width: 300px;
+    height: 340px;
+}
+
+.BgLabel img {
+    width: 100%;
+    height: 245px;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+
+}
+
+.BgLabeltxt {
+    width: 90%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #333;
+}
+
+.BgLabelposhalko {
+    background: #ff0000;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    width: 7px;
+    height: 7px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
+
+.InfoLabel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.InfoLabelDivGde {
+    width: 70%;
+    height: 525px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+
+.InfoGraund {
+    width: 500px;
+    height: 180px;
+    color: #60B7D9;
+    font-size: 35px;
+}
+
+.InfoCount {
+    font-size: 110px;
+    font-weight: bold;
+
+}
+
+
+.Assorty {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.PopularAssortyDivGde {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.MainTxtAss {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: start;
+}
+
+.AssortyLabelGde {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.AssortyLabel {
+    width: 260px;
+    height: 440px;
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: 0.3s;
+    cursor: pointer;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.AssortyLabel:hover {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 2.5);
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.ContainerAssortytxt {
+    width: 80%;
+    height: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: start;
+}
+
+.Assortytxt1 {
+    width: 90%;
+    font-weight: 300px;
+    font-size: large;
+    font-family: monospace;
+    display: flex;
+    color: #000000d7;
+}
+
+.Assortytxt2 {
+    width: 90%;
+    font-weight: 600px;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+}
+
+
+.Assortytxt3 {
+    width: 90%;
+    font-weight: 40px;
+    font-size: large;
+    font-family: sans-serif;
+    display: flex;
+    color: #000000b5;
+}
+
+.Assortybtn {
+    background: #F1524F;
+    width: 170px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.Assortybtn:hover {
+    background: #bd3e3c;
+    border-radius: 8px;
+    width: 172px;
+
+}
+
+
+.BlueBg {
+    width: 100%;
+    height: 160px;
+    background-color: #60B7D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0 3px 15px rgba(10, 5, 5, 10);
+}
+
+.BlueBgTxt {
+    width: 55%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+}
+
+.BlueBgTxt p {
+    width: 40%;
+    max-height: 140px;
+
+}
+
+
+.blanksec {
+    width: 100%;
+    height: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blanksecDiv {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.blanksPapers {
+    width: 65%;
+    height: 900px;
+}
+
+.blanksPapers p {
+    height: 120px;
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+.blanksMain{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blanksArrow:hover {
+    cursor: pointer;
+    color: #ff0000a2;
+}
+
+
+
+
+.AnsverLabel{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+}
+
+.AnsverLabelGde{
+    width: 45%;
+    height: 85%;
+    box-shadow: 0 2px 3ch rgba(10, 5, 5, 0.5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.Ansver{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.Ansvertxt{
+    font-weight: 400;
+    font-size: xx-large;
+}
+
+.AnsverPole{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.AnsverPole1{
+    width: 95%;
+    height: 45px;
+    border-radius: 8px;
+    border-color: rgba(190, 190, 190, 1);
+    border-style: solid;
+    border-width: 2px;
+}   
+
+
+.AnsverPole2{
+    width: 95%;
+    height: 190px;
+    border-radius: 8px;
+    border-color: rgba(190, 190, 190, 1);
+    border-style: solid;
+    border-width: 2px;
+}
+
+.AnsverBottom{
+width: 100%;
+height: 200px;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+}
+.AnsverBtn{
+    width: 60%;
+    height: 60px;
+    background: rgba(204, 71, 68, 1);
+    border:  none;
+    border-radius: 10px;
+    color: white;
+    font-size: xx-large;
+    gap: 5px;
+}
+
+.AnsverBtn:hover{
+    transform: scale(1.025);
+    transition: 0.1s;
+    background: rgb(185, 65, 63);
+    
+}
+
+.AnsverBtncheckbox{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: small;
+}
+
+
+
+
+
+@media (min-width: 1024px) {
+
+    .MainTxt{
+    width: 500px;
+    display: flex;
+    justify-content: left;
+    font-size: 42px;
+    color: #1C2128;
+    text-align: left;
+    }
+.MainGde{
+    width: 95%;
+    height: 55vh;
+}
+.MiniTxt{
+    height: 200px;
+}
+.MiniTxt1{
+    height: 300px;
+}
+.BlueLineTxt{
+    height: 250px;
+}
+
+.MainContainer{
+    height: 650px;
+}
+
+
+
+    .Catalog{
+        height: auto;
+    }
+.CatalogDivGde{
+    width: 90%;
+}
+
+
+    .InfoLabel{
+        height: 420px;
+        display: flex;
+        align-items: center;
+    }
+.InfoLabelDivGde{
+    width: 90%;
+    height: 360px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: start;
+}
+.InfoGraund{
+    width: 280px;
+}
+.InfoCount p{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+
+    .Assorty{
+        height: 950px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+.PopularAssortyDivGde{
+    width: 90%;
+}
+.AssortyLabel{
+    width: 240px;
+
+    height: auto;
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.AssortyLabelGde{
+    flex-wrap: wrap;
+    display: -moz-grid-group;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+    .BlueBgTxt{
+        width: 55%;
+        height: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        font-size: 36px;
+    }
+
+
+
+    .AnsverLabelGde{
+        width: 60%;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper {
+  font-family: 'Nunito', sans-serif;
+  background-color: #ffffff;
+  padding: 60px 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.wrapper::before {
+  content: '';
+  position: absolute;
+  bottom: -80px;
+  left: -80px;
+  width: 260px;
+  height: 260px;
+  background: #4caf50;
+  border-radius: 50%;
+  opacity: 0.15;
+}
+
+.wrapper::after {
+  content: '';
+  position: absolute;
+  top: -60px;
+  right: -60px;
+  width: 300px;
+  height: 300px;
+  background: #4caf50;
+  border-radius: 50%;
+  opacity: 0.13;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 80px;
+  align-items: start;
+  position: relative;
+  z-index: 1;
+}
+
+/* ─── Form ─────────────────────────────────── */
+.formBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.formTitle {
+  font-size: 26px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 8px;
+}
+
+.formSubtitle {
+  font-size: 13.5px;
+  color: #666;
+  line-height: 1.55;
+  margin-bottom: 28px;
+}
+
+.field {
+  width: 100%;
+  max-width: 320px;
+  margin-bottom: 18px;
+  text-align: left;
+}
+
+.label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.labelValid { color: #4caf50; }
+.labelError { color: #e53935; }
+
+.inputWrap {
+  position: relative;
+}
+
+.input {
+  width: 260px;
+  padding: 5px 40px 11px 16px;
+  border: none;
+  border-radius: 20px;
+  background: #DEE6EE;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  color: #333;
+  outline: none;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.dot {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.dotGreen { background: #4caf50; }
+.dotRed   { background: #e53935; }
+
+/* Checkboxes */
+.checkboxes {
+  width: 100%;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.checkboxRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.checkboxDot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.checkboxDotGreen { background: #4caf50; }
+
+.checkboxText {
+  font-size: 13.5px;
+  color: #333;
+  font-weight: 500;
+}
+
+.link {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+.link:hover { text-decoration: underline; }
+
+/* Buttons */
+.btn {
+  width: 100%;
+  max-width: 320px;
+  padding: 14px;
+  border-radius: 36px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: opacity 0.2s, transform 0.1s;
+}
+
+.btn:hover  { opacity: 0.88; transform: translateY(-1px); }
+.btn:active { transform: translateY(0); }
+
+.btnOutline {
+  background: transparent;
+  border: 2px solid #4caf50;
+  color: #4caf50;
+}
+
+.btnFilled {
+  background: #4caf50;
+  border: none;
+  color: #fff;
+}
+
+.or {
+  font-size: 16px;
+  font-weight: 700;
+  color: #333;
+  margin: 12px 0;
+  letter-spacing: 0.05em;
+}
+
+.faqBlock {
+  display: flex;
+  flex-direction: column;
+}
+
+.faqTitle {
+  font-size: 22px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.faqList {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.faqItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  border-radius: 50px;
+  padding: 6px 10px;
+  cursor: pointer;
+  transition: box-shadow 0.15s;
+}
+
+.faqItem:hover {
+  box-shadow: 0 2px 10px rgba(76, 175, 80, 0.15);
+}
+
+.faqText {
+  font-size: 13.5px;
+  color: #333;
+  font-weight: 500;
+}
+
+.faqArrow {
+  font-size: 30px;
+  color: #333;
+  font-weight: 400;
+  line-height: 1;
+}
+
+
+
+.LeftMenu{
+    /* background: #9fff96; */
+    width: 4vw;
+    height: 54vh;
+    position: absolute;
+    transform: translateX(4vw);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.LeftMenuCircle{
+    width: 4vw;
+    height: 4vw;
+    background-color: white;
+    border-radius: 50%;
+    /* Дополнительные опции */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.384);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
